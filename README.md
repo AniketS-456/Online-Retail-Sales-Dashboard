@@ -106,10 +106,10 @@ Power BI connects directly to the PostgreSQL database and includes:
 ## 📁 Repository Structure
 
 ```
-├── online_retail_II.csv              # Raw source data
-├── Cleaned Online Retail Data.csv    # Cleaned dataset used for the dashboard
-├── cancelled_orders.csv              # Cancelled/returned orders (separated during cleaning)
-├── non_cancelled_orders.csv          # Intermediate file from the cleaning process
+├── online_retail_II.csv              # Raw source data (not included — see note above)
+├── Cleaned Online Retail Data.csv    # Cleaned dataset used for dashboard (not included — see note above)
+├── cancelled_orders.csv              # Cancelled/returned orders (not included — see note above)
+├── non_cancelled_orders.csv          # Intermediate file from cleaning (not included — see note above)
 ├── data_cleaning.ipynb               # Step-by-step Pandas cleaning notebook
 ├── Online_retail_Dashboard.pbix      # Power BI dashboard file
 ├── Online_retail_Dashboard.pdf       # PDF export of the dashboard
